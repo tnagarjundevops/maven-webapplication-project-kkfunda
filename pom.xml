@@ -21,10 +21,11 @@
 		<spring.version>5.3.34</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://3.108.250.186:9000/</sonar.host.url>
-		<!--<sonar.login>admin</sonar.login>
+		<sonar.host.url>http://15.206.88.31:9000/</sonar.host.url>
+		<!-- <sonar.login>admin</sonar.login>
 		<sonar.password>Durvik@232023</sonar.password> -->
-		<sonar.login>squ_bcffb6a091f658da57677cca782a10a0e4f68b35</sonar.login>
+		
+		<sonar.login>squ_cc7998bc07fba16f60dc2f9b32dd95ee2c1c42ed</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -99,13 +100,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Releases Nexus Repository</name>
-	      <url>http://13.126.46.235:8081/repository/jio-release/</url>
+	      <url>http://35.154.101.200/:8081/repository/jio-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>KK FUNDA Snapshot Nexus Repository </name>
-	      <url>http://13.126.46.235:8081/repository/jio-snapshot/</url>
+	      <url>ttp://35.154.101.200/:8081/repository/jio-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
