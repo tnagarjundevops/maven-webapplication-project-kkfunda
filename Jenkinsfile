@@ -33,7 +33,7 @@ node
       sh """
 
       curl -u nagarjun:Durvik@232023 \
---upload-file /var/lib/jenkins/workspace/webapp-Scripted-Way-PL/target/maven-web-application.war \
+--upload-file /var/lib/jenkins/workspace/webapp-ccripted-way-pipe/target/maven-web-application.war \
 "http://13.127.55.140:8080/manager/text/deploy?path=/maven-web-application&update=true"
           
         """
