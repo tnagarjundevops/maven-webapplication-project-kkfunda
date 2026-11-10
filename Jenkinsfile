@@ -9,7 +9,7 @@ node
 
    stage('git checkout')
    {
-      git branch: 'master', url: 'https://github.com/kkdevopsb11/maven-webapplication-project-kkfunda.git'
+      git branch: 'master', url: 'https://github.com/tnagarjundevops/maven-webapplication-project-kkfunda.git'
    }
    stage('compile')
    {
@@ -33,7 +33,7 @@ node
       sh """
 
       curl -u nagarjun:Durvik@232023 \
---upload-file /var/lib/jenkins/workspace/webapp-ccripted-way-pipe/target/maven-web-application.war \
+--upload-file /var/lib/jenkins/workspace/webapp-scripted-way-pipe/target/maven-web-application.war \
 "http://13.127.55.140:8080/manager/text/deploy?path=/maven-web-application&update=true"
           
         """
