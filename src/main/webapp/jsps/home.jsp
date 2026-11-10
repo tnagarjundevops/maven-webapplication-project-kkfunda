@@ -46,7 +46,7 @@
 <body>
 
 <header>
-     <h1> WELCOME TO B10 KKDEVOPS NEW MORNING BATCH WILL START ON December 6th.Thanks. </h1>     
+     <marquee> <h1> WELCOME TO B10 KKDEVOPS NEW MORNING BATCH WILL START ON December 6th 2026.Thanks. </h1> </marquee>    
     <h3>Training | Development | Consulting</h3>
 </header>
 
