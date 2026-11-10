@@ -32,9 +32,9 @@ node
   {
       sh """
 
-      curl -u kk:password \
+      curl -u nagarjun:Durvik@232023 \
 --upload-file /var/lib/jenkins/workspace/webapp-Scripted-Way-PL/target/maven-web-application.war \
-"http://52.66.253.234:8080/manager/text/deploy?path=/maven-web-application&update=true"
+"http://13.127.55.140:8080/manager/text/deploy?path=/maven-web-application&update=true"
           
         """
   }
